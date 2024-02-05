@@ -1,0 +1,108 @@
+/*  PARA EL BACKGROUND Y QUE SE ALINEE EN EL CENTRO EL TELEFONO DE CONTACTO Y GMAIL  */
+#tel{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(134,113,93,0.2962962962962963) 68%,
+     rgba(134,113,93,0.2857142857142857) 100%);
+     margin-bottom: 0px;
+    font-size: 18PX;
+}
+/* PARA CAMBIAR EL COLOR DE LA LETRA DEL MENU DE NAVEGACIÓN */
+.nav-link {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #968a69;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+a.nav-link:hover{
+    color: rgb(116, 103, 88);
+}
+
+
+/* PARA QUE LOS H4 SE CENTREN, SE ALINEE Y DEMÁS*/
+h4.titulillos{
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    background-color: #bbb5a2;
+    border-radius: 10px;
+    
+    
+}
+/* COLOR Y DEMÁS DEL FOOTER*/
+.footer{
+    background: linear-gradient(90deg, rgba(134,113,93,0.2962962962962963) 68%,
+     rgba(134,113,93,0.2857142857142857) 100%);
+     margin-bottom: 0px;
+     padding-top: 40px;
+     padding-bottom: 30px;
+}
+.h6{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+div.nosotros{
+    width: 50%;
+}
+/* PARA PONER UNA IMAGEN DE FONDO DE LA WEB*/
+body.fondoweb{
+    background-image: url(../img/fondo3.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 0px;
+
+}
+/*  PARA PONER LOS FONDOS CON DEGRADADOS EN LA COLUMNA DE TRES*/
+div .fondoprimeracolumna{
+    background: 
+     border: 1px solid rgba(182, 153, 110, 0.877);
+     margin-top: 12px;
+     padding: 6px;
+     
+     
+}
+div.primeracolumna{
+    display: flex;
+    align-items: stretch !important;
+    background: linear-gradient(90deg, rgba(228,226,226,0.382830626450116)
+     0%, rgba(255,255,255,0.4245939675174014) 100%);
+     margin-top: 50px;
+     margin-bottom: 50px;
+     
+     
+     
+}
+/* PARA PONER LOS FONDOS CON DEGRADADOS EN LA COLUMNA DE EMOTICONOS*/
+div.iconosytexto{
+    background: linear-gradient(90deg, rgba(228,226,226,0.382830626450116)
+     0%, rgba(255,255,255,0.4245939675174014) 100%);
+     margin-top: 20px;
+     margin-bottom: 30px;
+     
+}
+.hsm{
+    color: #8a7d58;
+}
+
+/* PARA FORMULARIO */
+div.formulario{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(228,226,226,0.382830626450116)
+     0%, rgba(255,255,255,0.4245939675174014) 100%);
+     border-radius:5px;
+}
+.plantillaa{
+    margin-bottom: 20px;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
